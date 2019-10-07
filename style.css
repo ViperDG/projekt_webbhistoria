@@ -1,0 +1,50 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+  .nav_bar--horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 25%;
+    overflow: hidden;
+    background-color: #567221;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .nav_bar--horizontal a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  .nav_bar--horizontal li {
+    display: inline-block;
+  }
+  
+  body {
+    background-color: grey;
+  }
+  
+  .container {
+    background-color: whitesmoke;
+    margin-left: 256px;
+    margin-right: 256px;
+    bottom: 0;
+    height: 96vh;
+  }
+  
+  .mcride {
+    padding-left: 25%;
+  }

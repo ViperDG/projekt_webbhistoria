@@ -1,0 +1,7 @@
+Vad man vill att användaren ska testa
+
+Hur användaren ska testa
+
+Vad ska du dokumentera
+
+Dokumentera eventuella designlösningar till problem som uppstår under användartesterna

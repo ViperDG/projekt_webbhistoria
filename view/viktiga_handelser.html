@@ -1,35 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
   <head>
-    <title>Projekt Webbhistoria</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
-  <body>
-    <ul class="nav_bar--horizontal">
-      <li>
-        <a href="/index.html">Startsida</a>
-      </li>
-      <li>
-        <a href="/view/viktiga_handelser.html">Viktiga händelser</a>
-      </li>
-      <li>
-        <a href="/view/hemsidor_utvecklats.html">Hur hemsidor har utvecklats</a>
-      </li>
-      <li>
-        <a href="/view/principer.html">Internets grundläggande principer</a>
-      </li>
-      <li>
-        <a href="/view/webbpubliceringssystem.html">Webbpubliceringssystem</a>
-      </li>
-  </ul>
-  <body>
+      <link rel="stylesheet" href="/style.css">
 
+    <script src="http://www.webglearth.com/v2/api.js"></script>
+    <script>
+      function initialize() {
+        var options = {atmosphere: true, center: [0, 0], zoom: 0};
+        var earth = new WE.map('earth_div', options);
+        WE.tileLayer('http://tileserver.maptiler.com/nasa/{z}/{x}/{y}.jpg', {
+          minZoom: 0,
+          maxZoom: 5,
+          attribution: 'NASA'
+        }).addTo(earth);
+        var marker = WE.marker([59.3293, 18.0686]).addTo(earth);
+        marker.bindPopup("<b>1972</b><br>Svensk upptäckt byggs in i Arpanet.<br /><span style='font-size:10px;color:#999'><a target='_blank' href='https://www.internetmuseum.se/tidslinjen/den-svenska-routingupptackten-som-byggs-in-i-arpanet/'> Klicka här för att läsa mer.</a></span>", {maxWidth: 150, closeButton: false});
+        var marker = WE.marker([34.05, -118.24]).addTo(earth);
+        marker.bindPopup("<b>1969</b><br>Starten på internet heter Arpanet.<br /><span style='font-size:10px;color:#999'><a target='_blank' href='https://www.internetmuseum.se/tidslinjen/arpanet/'> Klicka här för att läsa mer.</a></span>", {maxWidth: 150, closeButton: false});
+        var marker = WE.marker([55.67, 12.53]).addTo(earth);
+        marker.bindPopup("<b>1985</b><br>Nu binds Norden ihop när ministerrådet satsar på internet.<br /><span style='font-size:10px;color:#999'><a target='_blank' href='https://www.internetmuseum.se/tidslinjen/nordiska-ministerradet-satsar-pa-internet/'> Klicka här för att läsa mer.</a></span>", {maxWidth: 150, closeButton: false});;
+        var marker = WE.marker([46.232612, 6.055237]).addTo(earth);
+        marker.bindPopup("<b>1989</b><br>World wide web skapas – nu kan internet bli en publiksuccé.<br /><span style='font-size:10px;color:#999'><a target='_blank' href='https://www.internetmuseum.se/tidslinjen/www/'> Klicka här för att läsa mer.</a></span>", {maxWidth: 150, closeButton: false});
+        var marker = WE.marker([37.4316, -78.6569]).addTo(earth);
+        marker.bindPopup("<b>1963</b><br>Här kläcks idén om ett \"intergalaktist nätverk\"<br /><span style='font-size:10px;color:#999'><a target='_blank' href='https://www.internetmuseum.se/tidslinjen/iden-om-internet-formuleras/'> Klicka här för att läsa mer.</a></span>", {maxWidth: 150, closeButton: false});
+      }
+    </script>
+    <style>
+      html, body{padding: 0; margin: 0;}
+      #earth_div{top: 0; right: 0; bottom: 0; left: 0;
+                 background-color: #000;} /*position: absolute !important*/
+      </style>
+      <title>Viktiga Händelser</title>
+    </head>
+    <body onload="initialize()">
+        <ul class="nav_bar--horizontal">
+            <li>
+              <a href="/index.html">Startsida</a>
+            </li>
+            <li>
+              <a href="/view/viktiga_handelser.html">Viktiga händelser</a>
+            </li>
+            <li>
+              <a href="/view/hemsidor_utvecklats.html">Hur hemsidor har utvecklats</a>
+            </li>
+            <li>
+              <a href="/view/principer.html">Internets grundläggande principer</a>
+            </li>
+            <li>
+              <a href="/view/webbpubliceringssystem.html">Webbpubliceringssystem</a>
+            </li>
+        </ul>
+      <div id="earth_div"></div>
+      
+  </body>
+  
 </html>

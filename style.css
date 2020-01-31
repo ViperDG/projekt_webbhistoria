@@ -42,7 +42,7 @@ body {
     margin-left: 256px;
     margin-right: 256px;
     bottom: 0;
-    height: 96vh;
+    /* height: 96vh; */
   }
   
   .mcride {

@@ -1,0 +1,25 @@
+Jag började med idén om att jag skulle ha med en interaktiv jordglob på hemsidan så jag hittade ett sätt att implementera
+den och jag hittade ett javascript-projekt som någon hade skapat som var väldigt enkelt att implementera. Så den sidan 
+(viktiga händelser) med jordgloben skapade jag först. Den blev jag väldigt nöjd med. Det projektet som jag hittade 
+underlättade väldigt mycket. Dock så var det lite pilligt att hålla på med alla olika händelser men det var kul
+att jobba med.
+
+Sen började jag på startsidan och skapade en container och en toolbar med flikar och länkar till alla andra sidor på hemsidan. 
+Det gick väldigt smidigt och fungerade väldigt bra. 
+
+Sen skapade jag sidan "Hur hemsidor har utvecklats" där jag skrev om hemsidan YouTube.com och hur den har utvecklats med tiden.
+Det var också smidigt och gick fort.
+
+
+Sen skapade jag en sida som heter "Vad jag tycker" för att jag skulle kunna få med mina tankar om de viktiga 
+händelserna jag hade med. Jag gjorde också så att man kan ta sig till den sidan och till artikeln om man
+klickar på en länk på jordgloben. Det var lite omständigt att behöva göra en separat sida för mina tankar 
+om viktiga händelser men det sättet jag löste det på tyckte jag var ganska bra.
+
+
+Sen skapade jag "Webbpubliceringssystem" där jag skrev om olika Webbpubliceringssystem.
+Det här var inte svårt alls då jag bara behövde söka upp fakta och skriva kortfattat.
+
+Efter det så skrev jag klart "Grundläggande Principer" hemsidan och skrev om internets grundläggande principer. 
+Det va ungefär samma som Webbpubliceringssystem-sidan. Väldigt enkelt.
+

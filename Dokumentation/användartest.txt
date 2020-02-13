@@ -1,7 +1,4 @@
-Vad man vill att användaren ska testa
+Enligt användaren som testade min sida så är det lite otydligt vad mand ska göra på hemsidan "Viktiga Händelser".
+Jag skulle kunna lägga till text bredvid där det står att man ska klicka på markörerna för att läsa.
+Jag kan också göra så att man ser alla markörerna på en gång när man öppnar sidan.
 
-Hur användaren ska testa
-
-Vad ska du dokumentera
-
-Dokumentera eventuella designlösningar till problem som uppstår under användartesterna
